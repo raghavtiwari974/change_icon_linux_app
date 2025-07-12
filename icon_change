@@ -1,0 +1,10 @@
+sudo nano /usr/share/applications/appname.desktop
+# Change:
+# Icon=appname
+# To:
+# Icon=/path/to/your/newicon.png
+
+# Save and exit
+
+# (Optional) Refresh icon cache
+sudo gtk-update-icon-cache /usr/share/icons/hicolor
